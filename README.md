@@ -1,4 +1,4 @@
 IntroToAopWithPostSharp
 =======================
 
-This is the completed code from my first AOP blog post.
+This is the completed code from my AOP Blog Post Series
