@@ -15,7 +15,7 @@ namespace IntroToAop2
             {
                 if (args.Arguments.GetArgument(i) == null)
                 {
-                    messages.AppendFormat("Parameter {0} cannot be null. ", args.Method.GetParameters()[i].Name);
+                    messages.AppendFormat("Parameter \"{0}\" cannot be null. ", args.Method.GetParameters()[i].Name);
                 }
             }
 

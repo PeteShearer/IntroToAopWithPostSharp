@@ -16,6 +16,13 @@ namespace IntroToAop2
             return new string(inputArray);
         }
 
+        [NoNullParams]
+        public string[] MakeStringArrayFromThreeStrings(string item1, string item2, string item3)
+        {
+            // This method is completely useless.  I just wanted multiple params to test the NoNullParamsAttribute with.
+            return new[] { item1, item2, item3 };
+        }
+
         public bool DoesStringStartWithACapitalLetter(string input)
         {
             var firstLetter = input[0];

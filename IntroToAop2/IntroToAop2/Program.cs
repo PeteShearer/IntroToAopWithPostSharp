@@ -13,7 +13,8 @@ namespace IntroToAop2
             var utils = new Utility();
             try
             {
-                Console.WriteLine(utils.ReverseString(null));
+                //Console.WriteLine(utils.ReverseString(null));
+                Console.WriteLine(utils.MakeStringArrayFromThreeStrings("Pete", null, null));
             }
             catch (Exception ex)
             {
